@@ -1,0 +1,637 @@
+@import url(index.css);
+dl, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+.detail {
+  width: 1080px;
+  margin: 0 auto; }
+  .detail .list {
+    height: 50px;
+    font-size: 12px;
+    color: #666;
+    line-height: 50px; }
+    .detail .list a {
+      color: #000; }
+  .detail .good {
+    width: 1080px;
+    height: 498px; }
+    .detail .good .left {
+      width: 562px;
+      height: 498px;
+      float: left; }
+      .detail .good .left .left-cont {
+        width: 460px;
+        height: 460px;
+        border: 1px solid #ccc;
+        float: left;
+        overflow: hidden; }
+        .detail .good .left .left-cont img {
+          width: 460px;
+          height: 460px; }
+      .detail .good .left .cont-list {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 460px; }
+        .detail .good .left .cont-list li {
+          width: 80px;
+          height: 80px;
+          border: 1px solid #ccc;
+          cursor: pointer; }
+          .detail .good .left .cont-list li img {
+            width: 80px;
+            height: 80px; }
+        .detail .good .left .cont-list .f1 {
+          border: 1px solid #523669; }
+      .detail .good .left .introduce-list {
+        width: 562px;
+        height: 16px;
+        display: block;
+        clear: both; }
+        .detail .good .left .introduce-list li {
+          padding-left: 20px;
+          background: url(../img/policy-icon.png);
+          background-repeat: no-repeat;
+          float: left;
+          font-size: 12px;
+          margin: 20px 10px 0 0;
+          cursor: pointer;
+          position: relative; }
+          .detail .good .left .introduce-list li div {
+            line-height: 30px;
+            padding: 10px 20px;
+            width: 260px;
+            position: absolute;
+            top: 20px;
+            left: -40px;
+            display: none;
+            background: #fff;
+            box-shadow: 0 0 5px #ccc;
+            z-index: 3002; }
+        .detail .good .left .introduce-list li:hover div {
+          display: block; }
+    .detail .good .right {
+      width: 465px;
+      height: 422px;
+      float: right;
+      font-size: 13px;
+      color: #f85453; }
+      .detail .good .right .goods-detail {
+        width: 465px;
+        height: 74px;
+        border-bottom: 1px solid #ccc; }
+        .detail .good .right .goods-detail h3 {
+          font-size: 20px;
+          font-weight: normal;
+          color: #333;
+          margin-bottom: 14px; }
+        .detail .good .right .goods-detail p {
+          font-size: 14px;
+          color: #999;
+          margin-bottom: 14px; }
+      .detail .good .right .goods-main {
+        width: 465px;
+        height: 278px;
+        color: #666;
+        margin-top: 15px;
+        margin-bottom: 20px; }
+        .detail .good .right .goods-main .price {
+          width: 465px;
+          height: 35px; }
+          .detail .good .right .goods-main .price > span {
+            width: 65px;
+            height: 35px;
+            font-size: 14px;
+            line-height: 42px;
+            display: inline-block; }
+          .detail .good .right .goods-main .price > div {
+            width: 400px;
+            height: 35px;
+            float: right; }
+            .detail .good .right .goods-main .price > div .maney {
+              display: inline-block;
+              height: 35px;
+              color: #f85453; }
+              .detail .good .right .goods-main .price > div .maney i {
+                display: inline-block;
+                height: 35px;
+                font-size: 28px;
+                font-style: normal;
+                vertical-align: -3px; }
+            .detail .good .right .goods-main .price > div .date {
+              display: inline-block;
+              height: 35px;
+              font-size: 14px;
+              margin-left: 40px;
+              line-height: 35px; }
+        .detail .good .right .goods-main .color-size {
+          width: 465px;
+          height: 167px;
+          margin-top: 15px; }
+          .detail .good .right .goods-main .color-size > ul {
+            width: 465px;
+            height: 167px; }
+            .detail .good .right .goods-main .color-size > ul .color {
+              width: 465px;
+              height: 67px; }
+              .detail .good .right .goods-main .color-size > ul .color > span {
+                display: inline-block;
+                width: 65px;
+                height: 35px;
+                float: left; }
+              .detail .good .right .goods-main .color-size > ul .color div {
+                width: 52px;
+                height: 52px;
+                float: left;
+                margin-right: 4px;
+                border: 1px solid #ccc;
+                position: relative;
+                cursor: pointer; }
+                .detail .good .right .goods-main .color-size > ul .color div img {
+                  width: 52px;
+                  height: 52px; }
+                .detail .good .right .goods-main .color-size > ul .color div em {
+                  display: block;
+                  width: 22px;
+                  height: 22px;
+                  position: absolute;
+                  bottom: 0;
+                  right: 0;
+                  background: url(../img/specs-active.png) no-repeat;
+                  display: none; }
+                .detail .good .right .goods-main .color-size > ul .color div i {
+                  width: 26px;
+                  height: 22px;
+                  background: #fff;
+                  padding: 6px 20px;
+                  box-shadow: 0 0 5px #ccc;
+                  display: none;
+                  position: absolute;
+                  left: -4px;
+                  top: 60px;
+                  font-style: normal;
+                  z-index: 2; }
+              .detail .good .right .goods-main .color-size > ul .color .f1 {
+                border: 1px solid #523669; }
+                .detail .good .right .goods-main .color-size > ul .color .f1 em {
+                  display: block; }
+              .detail .good .right .goods-main .color-size > ul .color div:hover i {
+                display: block; }
+            .detail .good .right .goods-main .color-size > ul .size {
+              width: 465px;
+              height: 100px; }
+              .detail .good .right .goods-main .color-size > ul .size > span {
+                display: inline-block;
+                width: 65px;
+                height: 35px;
+                float: left; }
+              .detail .good .right .goods-main .color-size > ul .size ul {
+                width: 400px;
+                height: 100px;
+                float: right; }
+                .detail .good .right .goods-main .color-size > ul .size ul li {
+                  width: 64px;
+                  height: 35px;
+                  float: left;
+                  border: 1px solid #ccc;
+                  position: relative;
+                  margin: 0 6px 15px 0;
+                  font-size: 14px;
+                  line-height: 35px;
+                  text-align: center;
+                  cursor: pointer; }
+                  .detail .good .right .goods-main .color-size > ul .size ul li em {
+                    display: block;
+                    width: 22px;
+                    height: 22px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background: url(../img/specs-active.png) no-repeat;
+                    display: none; }
+                .detail .good .right .goods-main .color-size > ul .size ul .f1 {
+                  border: 1px solid #523669; }
+                  .detail .good .right .goods-main .color-size > ul .size ul .f1 em {
+                    display: block; }
+        .detail .good .right .goods-main .table {
+          width: 456px;
+          height: 16px;
+          margin-bottom: 15px; }
+          .detail .good .right .goods-main .table > div {
+            width: 392px;
+            height: 16px;
+            float: right; }
+            .detail .good .right .goods-main .table > div span {
+              cursor: pointer; }
+            .detail .good .right .goods-main .table > div .cover {
+              width: 100%;
+              height: 100%;
+              background: #000;
+              opacity: 0.5;
+              position: fixed;
+              z-index: 2004;
+              display: none;
+              left: 0;
+              top: 0; }
+            .detail .good .right .goods-main .table > div .move {
+              width: 560px;
+              height: 350px;
+              z-index: 3000;
+              position: fixed;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              display: none;
+              background: #fff;
+              padding: 0 20px 25px;
+              font-size: 12px;
+              color: #333333; }
+              .detail .good .right .goods-main .table > div .move .hd {
+                height: 40px;
+                border-bottom: 1px dotted #ccc;
+                line-height: 40px;
+                font-size: 18px; }
+                .detail .good .right .goods-main .table > div .move .hd .hd-left {
+                  font-size: 18px; }
+                .detail .good .right .goods-main .table > div .move .hd .hd_close {
+                  width: 16px;
+                  height: 16px;
+                  background: url(../img/cls_btn.png);
+                  float: right;
+                  margin-top: 11px; }
+              .detail .good .right .goods-main .table > div .move .bd {
+                width: 560px;
+                height: 309px; }
+                .detail .good .right .goods-main .table > div .move .bd img {
+                  width: 560px;
+                  height: 309px; }
+        .detail .good .right .goods-main .quantity {
+          width: 456px;
+          height: 30px; }
+          .detail .good .right .goods-main .quantity > span {
+            display: inline-block;
+            width: 60px;
+            height: 30px;
+            float: left; }
+          .detail .good .right .goods-main .quantity > div {
+            width: 392px;
+            height: 30px;
+            float: right; }
+            .detail .good .right .goods-main .quantity > div .quantity-box {
+              width: 78px;
+              height: 30px;
+              border: 1px solid #b3b3b3;
+              line-height: 30px;
+              text-align: center; }
+              .detail .good .right .goods-main .quantity > div .quantity-box .sub {
+                width: 24px;
+                float: left;
+                cursor: pointer; }
+              .detail .good .right .goods-main .quantity > div .quantity-box .result {
+                width: 28px;
+                border-left: 1px solid #b3b3b3;
+                border-right: 1px solid #b3b3b3;
+                float: left; }
+              .detail .good .right .goods-main .quantity > div .quantity-box .add {
+                width: 24px;
+                float: left;
+                cursor: pointer; }
+      .detail .good .right .goods-bottom {
+        width: 400px;
+        height: 40px;
+        float: right;
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        line-height: 40px; }
+        .detail .good .right .goods-bottom #buyNow {
+          width: 180px;
+          height: 40px;
+          background: #523669;
+          margin-right: 15px;
+          float: left;
+          cursor: pointer; }
+        .detail .good .right .goods-bottom #addShopCar {
+          width: 180px;
+          height: 40px;
+          background: #f7b200;
+          float: left;
+          cursor: pointer; }
+  .detail .ifom-box .title {
+    width: 1080px;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    line-height: 60px;
+    color: #333;
+    background: #EEECEF;
+    margin-top: 40px; }
+    .detail .ifom-box .title .emp {
+      display: block;
+      float: left;
+      width: 239px;
+      height: 60px;
+      border-right: 1px solid #ccc;
+      color: #333;
+      text-align: center; }
+      .detail .ifom-box .title .emp span {
+        padding-right: 8px; }
+        .detail .ifom-box .title .emp span img {
+          vertical-align: -2px; }
+    .detail .ifom-box .title .goods-ifom {
+      width: 181px;
+      height: 60px;
+      text-align: center;
+      float: left;
+      border-right: 1px solid #ccc;
+      box-sizing: border-box;
+      cursor: pointer; }
+    .detail .ifom-box .title .goods-apparise {
+      width: 181px;
+      height: 60px;
+      text-align: center;
+      float: left;
+      border-right: 1px solid #ccc;
+      box-sizing: border-box;
+      cursor: pointer; }
+    .detail .ifom-box .title .shopping {
+      width: 180px;
+      height: 40px;
+      background: #f7b200;
+      float: right;
+      cursor: pointer;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      line-height: 40px;
+      margin: 10px 20px;
+      display: none; }
+  .detail .ifom-box .shop {
+    width: 241px;
+    height: 3508px;
+    float: left;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box; }
+    .detail .ifom-box .shop .top {
+      width: 200px;
+      height: 78px; }
+      .detail .ifom-box .shop .top .top-l {
+        width: 78px;
+        height: 78px;
+        border: 1px solid #ccc;
+        float: left;
+        position: relative; }
+        .detail .ifom-box .shop .top .top-l img {
+          width: 78px;
+          height: 78px; }
+        .detail .ifom-box .shop .top .top-l .empgoods {
+          width: 180px;
+          position: absolute;
+          top: 90px;
+          left: -1px;
+          padding: 20px 10px 15px;
+          border-radius: 3px;
+          box-shadow: 0 1px 10px 4px #ccc;
+          background: #fff;
+          display: none; }
+          .detail .ifom-box .shop .top .top-l .empgoods h3 {
+            display: block;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f2f2f2;
+            font-weight: normal;
+            font-size: 16px; }
+          .detail .ifom-box .shop .top .top-l .empgoods p {
+            margin-top: 15px;
+            font-size: 12px;
+            line-height: 20px; }
+      .detail .ifom-box .shop .top .top-l:hover div {
+        display: block; }
+      .detail .ifom-box .shop .top .top-r {
+        width: 200px;
+        height: 60px;
+        padding-top: 18px;
+        display: block;
+        font-size: 12px; }
+        .detail .ifom-box .shop .top .top-r li {
+          margin-bottom: 10px;
+          color: #333; }
+          .detail .ifom-box .shop .top .top-r li span {
+            color: #f7b200; }
+    .detail .ifom-box .shop .getin {
+      width: 200px;
+      height: 40px;
+      margin-top: 20px;
+      line-height: 40px;
+      color: #fff;
+      text-align: center;
+      background: #F7B200;
+      cursor: pointer; }
+    .detail .ifom-box .shop .recommend {
+      width: 200px;
+      font-size: 12px; }
+      .detail .ifom-box .shop .recommend li {
+        margin-top: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc; }
+        .detail .ifom-box .shop .recommend li a {
+          display: block; }
+          .detail .ifom-box .shop .recommend li a i {
+            width: 200px;
+            height: 200px; }
+            .detail .ifom-box .shop .recommend li a i img {
+              width: 200px;
+              height: 200px; }
+          .detail .ifom-box .shop .recommend li a dl {
+            font-size: 16px;
+            text-align: center;
+            line-height: 21px;
+            margin-top: 20px;
+            color: #333; }
+            .detail .ifom-box .shop .recommend li a dl dd {
+              margin-top: 10px;
+              color: #ff3333; }
+      .detail .ifom-box .shop .recommend li:last-of-type {
+        border: none; }
+  .detail .ifom-box .ifom {
+    width: 800px;
+    padding: 40px 0 0 38px;
+    font-size: 12px;
+    float: right; }
+    .detail .ifom-box .ifom .ifom-detail {
+      width: 800px; }
+      .detail .ifom-box .ifom .ifom-detail .material {
+        width: 800px;
+        margin: 0 auto 20px;
+        font-size: 16px; }
+        .detail .ifom-box .ifom .ifom-detail .material li {
+          width: 800px;
+          border-bottom: 2px dotted #cecece;
+          line-height: 32px;
+          overflow: hidden; }
+          .detail .ifom-box .ifom .ifom-detail .material li span {
+            display: block;
+            width: 160px;
+            height: 32px;
+            float: left;
+            color: #333; }
+          .detail .ifom-box .ifom .ifom-detail .material li p {
+            display: block;
+            width: 630px;
+            float: right; }
+    .detail .ifom-box .ifom .material-pic {
+      width: 800px; }
+      .detail .ifom-box .ifom .material-pic h3 {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+        font-weight: normal; }
+      .detail .ifom-box .ifom .material-pic div {
+        width: 800px;
+        height: 320px; }
+        .detail .ifom-box .ifom .material-pic div img {
+          width: 800px;
+          height: 320px; }
+    .detail .ifom-box .ifom .material-text {
+      display: block;
+      width: 800px; }
+      .detail .ifom-box .ifom .material-text li h3 {
+        width: 800px;
+        height: 40px;
+        border: 2px solid #c9c9c9;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+        line-height: 40px; }
+      .detail .ifom-box .ifom .material-text li div {
+        width: 800px; }
+        .detail .ifom-box .ifom .material-text li div p {
+          line-height: 30px;
+          font-size: 16px;
+          color: #666;
+          margin: 20px 0; }
+  .detail .ifom-box .appr-detail {
+    width: 800px;
+    font-size: 12px;
+    display: none;
+    float: right; }
+    .detail .ifom-box .appr-detail .top {
+      height: 21px;
+      margin-bottom: 30px; }
+      .detail .ifom-box .appr-detail .top a {
+        display: inline-block;
+        width: 60px;
+        height: 21px;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;
+        margin-right: 40px;
+        line-height: 21px; }
+        .detail .ifom-box .appr-detail .top a span {
+          width: 16px;
+          height: 16px;
+          display: inline-block;
+          vertical-align: -3px; }
+      .detail .ifom-box .appr-detail .top #all span {
+        background: url(../img/common.png) -20px 26px; }
+      .detail .ifom-box .appr-detail .top #only-pic span {
+        background: url(../img/common.png) 20px 26px; }
+      .detail .ifom-box .appr-detail .top div {
+        font-size: 16px;
+        float: right; }
+        .detail .ifom-box .appr-detail .top div span {
+          color: #f7b200; }
+    .detail .ifom-box .appr-detail .appr {
+      width: 800px; }
+      .detail .ifom-box .appr-detail .appr li {
+        width: 800px;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        margin-bottom: 10px; }
+        .detail .ifom-box .appr-detail .appr li .ouser {
+          width: 44px;
+          height: 66px;
+          margin: 20px 0 0 20px;
+          float: left; }
+          .detail .ifom-box .appr-detail .appr li .ouser .ouser-name {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #333; }
+        .detail .ifom-box .appr-detail .appr li .ouser-ifom {
+          font-size: 12px;
+          color: #333;
+          width: 600px;
+          float: left;
+          margin-top: 35px;
+          margin-left: 40px; }
+          .detail .ifom-box .appr-detail .appr li .ouser-ifom p {
+            margin-bottom: 20px; }
+            .detail .ifom-box .appr-detail .appr li .ouser-ifom p span {
+              margin-right: 24px;
+              color: #808080; }
+        .detail .ifom-box .appr-detail .appr li .face {
+          float: right;
+          margin-top: 30px; }
+          .detail .ifom-box .appr-detail .appr li .face img {
+            vertical-align: -8px;
+            margin-right: 10px; }
+      .detail .ifom-box .appr-detail .appr li:last-of-type {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px; }
+    .detail .ifom-box .appr-detail .picture {
+      width: 800px;
+      display: none; }
+      .detail .ifom-box .appr-detail .picture li {
+        width: 800px;
+        border-top: 1px solid #ccc;
+        overflow: hidden;
+        margin-bottom: 10px; }
+        .detail .ifom-box .appr-detail .picture li .ouser {
+          width: 44px;
+          height: 66px;
+          margin: 20px 0 0 20px;
+          float: left; }
+          .detail .ifom-box .appr-detail .picture li .ouser .ouser-name {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #333; }
+        .detail .ifom-box .appr-detail .picture li .ouser-ifom {
+          font-size: 12px;
+          color: #333;
+          width: 600px;
+          float: left;
+          margin-top: 35px;
+          margin-left: 40px; }
+          .detail .ifom-box .appr-detail .picture li .ouser-ifom div {
+            width: 62px;
+            height: 62px; }
+            .detail .ifom-box .appr-detail .picture li .ouser-ifom div img {
+              width: 62px;
+              height: 62px; }
+          .detail .ifom-box .appr-detail .picture li .ouser-ifom p {
+            margin-bottom: 20px; }
+            .detail .ifom-box .appr-detail .picture li .ouser-ifom p span {
+              margin-right: 24px;
+              color: #808080; }
+        .detail .ifom-box .appr-detail .picture li .face {
+          float: right;
+          margin-top: 30px; }
+          .detail .ifom-box .appr-detail .picture li .face img {
+            vertical-align: -8px;
+            margin-right: 10px; }
+      .detail .ifom-box .appr-detail .picture li:last-of-type {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px; }
+
+/*# sourceMappingURL=detail.css.map */

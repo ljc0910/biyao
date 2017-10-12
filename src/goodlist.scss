@@ -1,0 +1,64 @@
+@import "index.css";
+.lb_l{
+        width: 200px;height: 340px;background:#5e5b62 ;padding-top: 20px;display: none;
+            #lb_l-box{
+                position: relative;
+            >li{
+                height: 40px;color:#fff;
+                a{line-height: 40px;color: #fff;padding: 0 6px;font-size: 12px;}
+                a:hover{color: orange;}
+                a:first-child{padding-left:30px ;}
+                .lb_l-hover{
+                    background:#fff;color:#000;position: absolute;z-index: 2;left:200px;top: -20px;display: none;height: 340px;padding:20px 0;box-shadow: 0 2px 6px #ccc;
+                    >li{height: 50px;width: 670px;background:#fff;padding:0 20px;
+                        span{float: left;font-size: 12px;margin-right:16px;height: 50px;line-height: 50px;font-weight: bold;
+                            b{float: right;}    
+                        }
+                        span:first-of-type{width: 54px;}
+                        ul{width:560px;border-bottom: 1px solid #CCCCCC;float: left;font-size: 12px;padding:8px 0;
+                           >li{line-height:34px;float: left;margin-right: 20px;color: #808080;}
+                           li:hover{color: black;cursor: pointer;}
+                        }
+                    }
+                    >li:last-of-type{
+                        ul{border: none;}
+                        padding-bottom:20px;
+                    }
+                }
+            }
+            >li:hover{
+                .lb_l-hover{display: block;}
+                }
+            >li:hover{background:#838185 ;}
+            }
+        }
+.goodslist{background: #f9f9f9;padding-bottom: 80px;
+    .cont_list{
+        width: 1100px;height: 100px;margin: 0 auto;
+        .list{font-size: 12px;color: #666;line-height: 50px;
+            a{color: #000;}
+        }
+        .list-cont{
+            width: 990px;height: 50px;background: #fff;line-height: 50px;padding-left: 20px;
+            color:#808080;;
+            a{color: #808080;margin-left: 30px;}
+            a:hover{color: #000;}
+        }
+    }
+    .cont_goods{
+        .goods{width: 1100px;margin: 0 auto;
+            h3{margin-top:50px;font-size: 24px;font-weight: 400;text-align: center;}
+            ul{display: flex;justify-content: space-between;clear: both;flex-wrap: wrap;
+                li{width: 255px;height: 335px;background: #fff;margin-top: 16px;
+                    span{display:block;width:255px;height:255px ;overflow: hidden;
+                         img{width:255px;height:255px ;transition:all 1s;}
+                    }
+                    div:nth-of-type(1){font-size: 15px;text-align: center;margin-top: 23px;}
+                    div:nth-of-type(2){font-size: 12px;text-align: center;color: red;margin-top: 4px;}
+                }
+                li:hover{box-shadow: 0 2px 6px #ccc;cursor: pointer;}
+                li:hover img{transform: scale(1.05,1.05);}
+            }
+        }   
+    }
+}

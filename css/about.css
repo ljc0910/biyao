@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.header-box {
+  position: relative;
+  z-index: 100; }
+
+.l {
+  position: relative;
+  z-index: 10; }
+
+.goodbox {
+  position: relative;
+  z-index: 10; }
+
+.lb_btn {
+  position: fixed;
+  right: 5%;
+  top: 30%;
+  z-index: 999; }
+  .lb_btn li {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 30px 0;
+    cursor: pointer; }
+  .lb_btn li:first-of-type {
+    background: #666; }
+
+.lb_box {
+  width: 100%;
+  height: 100%;
+  transform: translateY(0%);
+  transition: all 500ms linear;
+  /*盒子放背景图，让背景图居中居上，固定背景图大小*/ }
+  .lb_box section {
+    width: 100%;
+    height: 100%;
+    background: url(../img/about1.jpg) center -100px no-repeat;
+    background-size: 1600px auto; }
+  .lb_box section:nth-of-type(2) {
+    background-image: url(../img/about2.jpg); }
+  .lb_box section:nth-of-type(3) {
+    background-image: url(../img/about3.png); }
+  .lb_box section:nth-of-type(4) {
+    background-image: url(../img/about4.jpg); }
+
+/*# sourceMappingURL=about.css.map */

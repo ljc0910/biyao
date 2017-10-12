@@ -1,0 +1,139 @@
+@import url(index.css);
+.lb_l {
+  width: 200px;
+  height: 340px;
+  background: #5e5b62;
+  padding-top: 20px;
+  display: none; }
+  .lb_l #lb_l-box {
+    position: relative; }
+    .lb_l #lb_l-box > li {
+      height: 40px;
+      color: #fff; }
+      .lb_l #lb_l-box > li a {
+        line-height: 40px;
+        color: #fff;
+        padding: 0 6px;
+        font-size: 12px; }
+      .lb_l #lb_l-box > li a:hover {
+        color: orange; }
+      .lb_l #lb_l-box > li a:first-child {
+        padding-left: 30px; }
+      .lb_l #lb_l-box > li .lb_l-hover {
+        background: #fff;
+        color: #000;
+        position: absolute;
+        z-index: 2;
+        left: 200px;
+        top: -20px;
+        display: none;
+        height: 340px;
+        padding: 20px 0;
+        box-shadow: 0 2px 6px #ccc; }
+        .lb_l #lb_l-box > li .lb_l-hover > li {
+          height: 50px;
+          width: 670px;
+          background: #fff;
+          padding: 0 20px; }
+          .lb_l #lb_l-box > li .lb_l-hover > li span {
+            float: left;
+            font-size: 12px;
+            margin-right: 16px;
+            height: 50px;
+            line-height: 50px;
+            font-weight: bold; }
+            .lb_l #lb_l-box > li .lb_l-hover > li span b {
+              float: right; }
+          .lb_l #lb_l-box > li .lb_l-hover > li span:first-of-type {
+            width: 54px; }
+          .lb_l #lb_l-box > li .lb_l-hover > li ul {
+            width: 560px;
+            border-bottom: 1px solid #CCCCCC;
+            float: left;
+            font-size: 12px;
+            padding: 8px 0; }
+            .lb_l #lb_l-box > li .lb_l-hover > li ul > li {
+              line-height: 34px;
+              float: left;
+              margin-right: 20px;
+              color: #808080; }
+            .lb_l #lb_l-box > li .lb_l-hover > li ul li:hover {
+              color: black;
+              cursor: pointer; }
+        .lb_l #lb_l-box > li .lb_l-hover > li:last-of-type {
+          padding-bottom: 20px; }
+          .lb_l #lb_l-box > li .lb_l-hover > li:last-of-type ul {
+            border: none; }
+    .lb_l #lb_l-box > li:hover .lb_l-hover {
+      display: block; }
+    .lb_l #lb_l-box > li:hover {
+      background: #838185; }
+
+.goodslist {
+  background: #f9f9f9;
+  padding-bottom: 80px; }
+  .goodslist .cont_list {
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto; }
+    .goodslist .cont_list .list {
+      font-size: 12px;
+      color: #666;
+      line-height: 50px; }
+      .goodslist .cont_list .list a {
+        color: #000; }
+    .goodslist .cont_list .list-cont {
+      width: 990px;
+      height: 50px;
+      background: #fff;
+      line-height: 50px;
+      padding-left: 20px;
+      color: #808080; }
+      .goodslist .cont_list .list-cont a {
+        color: #808080;
+        margin-left: 30px; }
+      .goodslist .cont_list .list-cont a:hover {
+        color: #000; }
+  .goodslist .cont_goods .goods {
+    width: 1100px;
+    margin: 0 auto; }
+    .goodslist .cont_goods .goods h3 {
+      margin-top: 50px;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center; }
+    .goodslist .cont_goods .goods ul {
+      display: flex;
+      justify-content: space-between;
+      clear: both;
+      flex-wrap: wrap; }
+      .goodslist .cont_goods .goods ul li {
+        width: 255px;
+        height: 335px;
+        background: #fff;
+        margin-top: 16px; }
+        .goodslist .cont_goods .goods ul li span {
+          display: block;
+          width: 255px;
+          height: 255px;
+          overflow: hidden; }
+          .goodslist .cont_goods .goods ul li span img {
+            width: 255px;
+            height: 255px;
+            transition: all 1s; }
+        .goodslist .cont_goods .goods ul li div:nth-of-type(1) {
+          font-size: 15px;
+          text-align: center;
+          margin-top: 23px; }
+        .goodslist .cont_goods .goods ul li div:nth-of-type(2) {
+          font-size: 12px;
+          text-align: center;
+          color: red;
+          margin-top: 4px; }
+      .goodslist .cont_goods .goods ul li:hover {
+        box-shadow: 0 2px 6px #ccc;
+        cursor: pointer; }
+      .goodslist .cont_goods .goods ul li:hover img {
+        transform: scale(1.05, 1.05); }
+
+/*# sourceMappingURL=goodlist.css.map */
